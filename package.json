@@ -1,7 +1,6 @@
 {
   "name": "buscadorcep",
-  "version": "0.1.0",
-  "homepage": "https://jrvalerio.github.io/buscadorcep",
+  "version": "0.1.0",  
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
