@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Buscador de CEP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição do Projeto
 
-## Available Scripts
+Este projeto é um buscador de CEP desenvolvido em React JS. Ele permite aos usuários inserir um CEP e obter informações detalhadas sobre o endereço correspondente.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- Busca de CEP: Insira um CEP e obtenha detalhes sobre o endereço.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React JS
+- Styled Components
+- Axios (para chamadas API)
+- GitHub Actions (para implantação no GitHub Pages)
 
-### `npm test`
+## Tutorial Sujeito Programador
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Este projeto foi criado seguindo o tutorial "CRIANDO PROJETO DO ZERO COM REACTJS 🚀" do Sujeito Programador. Certifique-se de conferir o tutorial original para obter uma compreensão completa do desenvolvimento.
 
-### `npm run build`
+[Tutorial Sujeito Programador](https://www.youtube.com/watch?v=oy4cbqE1_qc)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como Usar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone este repositório: `git clone https://github.com/jrvalerio/buscadorcep.git`
+2. Instale as dependências: `npm install`
+3. Execute o aplicativo localmente: `npm start`
+4. Faça suas modificações e customize conforme necessário.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deploy no GitHub Pages
 
-### `npm run eject`
+Este projeto está configurado para ser implantado automaticamente no GitHub Pages sempre que houver um push na branch `main`. Certifique-se de configurar corretamente o arquivo `main.yml` nas configurações do GitHub Actions.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Autor
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Amaro V S Júnior](https://github.com/jrvalerio)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Licença
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto é licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
